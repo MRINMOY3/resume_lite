@@ -1,0 +1,20 @@
+.xc1{
+    width: 400px;
+    color: black;
+}
+
+.gap{
+    border-radius: 2px solid white;
+    margin-top: 3px;
+}
+
+.snt{
+    color: rgb(52, 87, 199);
+}
+
+.nd1{
+    padding: 10px;
+        border-radius: 15px;
+        height: 70px;
+    width: 80px;
+}

@@ -1,0 +1,112 @@
+.head1 {
+background-color: rgb(99, 102, 241);
+    background-image: radial-gradient(at 47% 32%, rgb(249, 78, 255) 0, transparent 54%), radial-gradient(at 28% 54%, rgb(225, 130, 240) 0, transparent 19%), radial-gradient(at 93% 13%, rgb(165, 243, 252) 0, transparent 74%), radial-gradient(at 91% 79%, rgb(220, 252, 231) 0, transparent 36%), radial-gradient(at 90% 97%, rgb(19, 78, 74) 0, transparent 22%), radial-gradient(at 79% 87%, rgb(59, 130, 246) 0, transparent 46%);    margin-top: 90px;
+    margin-left: 10px;
+    border-radius: 15px;
+     height: 80dvh;
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
+.x{
+    border: 2rem;
+}
+
+.x1{
+    width: 130px;
+    border-radius: 4px;
+    margin-top: 6px;
+        height: 60dvh;
+    border: 1px solid rgb(226, 83, 83);
+    margin-left: 3px;
+}
+
+
+.x2{ 
+right: 5px;
+}
+
+
+.bb1{
+
+    display: flex;
+}
+
+.det{
+    padding: 3px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2px;
+    width: 410px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin-left: 150px;
+}
+
+
+.content_display{
+    height: 30px;
+}
+
+
+.details{
+    border-radius: 30px;
+    width: 230px;
+
+    background-color: rgb(31, 53, 255);
+}
+
+.details1{
+    padding: 5px;
+    margin: 3px;
+    background-color: rgb(31, 53, 255);
+}
+
+
+.det1{
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    padding-top: 15px;
+    margin: 20px;
+    border-radius: 30px;
+    height: 240px;
+}
+
+
+.Loading {
+    margin-top:50px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+
+}
+
+.Loading-progress {
+  height:80px;
+  width: 100%;
+  border-radius: 20px;
+  background: linear-gradient(90deg, red 0%, yellow 15%, lime 30%, cyan 50%, blue 65%, magenta 80%, red 100%);
+  background-size: 200%;
+  animation: moveGradient 5s linear infinite;
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: -200% 0%;
+  }
+}
+
+
+
+.vh1{
+    text-align: left;
+}
+
+.Ori_Gamme{
+    margin-left: 44px;
+    border-radius: 14px;
+}
